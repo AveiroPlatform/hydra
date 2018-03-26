@@ -1,0 +1,44 @@
+{
+  "name": "hydra",
+  "version": "1.0.3",
+  "homepage": "https://github.com/Kar365/hydra",
+  "description": "support multi threads",
+  "license": "BSD",
+  "main": "index",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "cpu-intensive",
+    "cpu-bound task",
+    "hash",
+    "ed25519",
+    "elliptic",
+    "curve25519",
+    "Block Chain"
+  ],
+  "author": {
+    "name": "YouJia",
+    "email": "pbft@foxmail.com"
+  },
+  "contributors": [
+    {
+      "name": "YouJia",
+      "email": "pbft@foxmail.com"
+    }
+  ],
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/Kar365/hydra/issues"
+  },
+  "directories": {}
+}

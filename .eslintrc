@@ -1,0 +1,30 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+    }
+  },
+  "globals": {
+    "Promise": true,
+    "Config": true,
+    "ROOTPATH": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": "off",
+    "space-before-blocks": "error",
+    "keyword-spacing": "error",
+    "strict": ["error", "global"],
+    "arrow-spacing": "error",
+    "no-eq-null": "error",
+    "no-tabs": "error",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "no-constant-condition":"off",
+    "no-empty":"off"
+  }
+}
