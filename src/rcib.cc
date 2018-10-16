@@ -300,4 +300,4 @@ void Init(v8::Local<v8::Object> target) {
   node::AtExit(Terminate);
 }
 
-NODE_MODULE(rcib, Init)
+NODE_MODULE(NODE_GYP_MODULE_NAME, Init)

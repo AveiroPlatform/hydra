@@ -1,7 +1,7 @@
 {
   "name": "hydra",
-  "version": "1.0.3",
-  "homepage": "https://github.com/Kar365/hydra",
+  "version": "1.0.4",
+  "homepage": "https://github.com/AyChain/hydra",
   "description": "support multi threads",
   "license": "BSD",
   "main": "index",
@@ -11,7 +11,7 @@
   "repository": {
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">= 8.0.0"
   },
   "dependencies": {
   },
@@ -38,7 +38,7 @@
   ],
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/Kar365/hydra/issues"
+    "url": "https://github.com/AyChain/hydra/issues"
   },
   "directories": {}
 }

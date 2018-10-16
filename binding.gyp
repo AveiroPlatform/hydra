@@ -1,7 +1,7 @@
 {
   'targets': [
   {
-    'target_name': 'node-threadobject',
+    'target_name': 'hydra',
     'defines': [],
     'sources': [
         'src/rcib.cc',
