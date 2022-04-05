@@ -76,7 +76,7 @@ namespace base {
 
     // If the times happen to match, then we use the sequence number to decide.
     // Compare the difference to support integer roll-over.
-    return (sequence_num_ - other.sequence_num_) > 0;
+    return (sequence_num_ > other.sequence_num_);
   }
   //task queue
   namespace taskqueue {
